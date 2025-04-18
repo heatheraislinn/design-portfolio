@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title - Case Study</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800">
+    <!-- Navigation -->
+    <nav class="w-full bg-white/80 backdrop-blur-sm py-4 shadow-sm">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-semibold">Heather Shar.</a>
+            <a href="/" class="text-emerald-600 hover:text-emerald-700">← Back to Portfolio</a>
+        </div>
+    </nav>
+
+    <!-- Case Study Content -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+        <!-- Header -->
+        <header class="mb-16">
+            <span class="text-emerald-600 font-medium">Enterprise Software</span>
+            <h1 class="text-4xl font-bold mt-2 mb-6">myMetrics | Your Tomorrow Dashboard</h1>
+            <div class="prose text-stone-600">
+                <p class="text-xl">The purpose of this project was to create a gamified dashboard for all PwC employees to track progress through digital upskilling mandates set by the company. This dashboard was designed...</p>
+            </div>
+        </header>
+
+        <!-- Project Details -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16">
+            <div>
+                <h3 class="font-semibold mb-2">Role</h3>
+                <p class="text-stone-600">Sr. Product Designer</p>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-2">Timeline</h3>
+                <p class="text-stone-600">3 months</p>
+            </div>
+            <div>
+                <h3 class="font-semibold mb-2">Responsibilities</h3>
+                <p class="text-stone-600">Design and Prototyping, Cross-functional Collaboration, Graphic Design</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <article class="space-y-16">
+            <!-- Problem -->
+            <section>
+                <h2 class="text-2xl font-bold mb-6">Understanding the Challenge</h2>
+                <div class="prose text-stone-600">
+                    <p>When I began this project, I got a lot of information from the stakeholders. They had already conducted user research sessions, and they had a problem statement in mind. They were looking for me to create a feature that would allow users to monitor progress through the Your Tomorrow digital upskilling program within myMetrics. The stakeholders also put together a mockup of their own, which they provided me with to illustrate their ideas. The problem statement looked something like this:</p>
+                    <div class="flex items-center gap-3 my-8">
+                        <svg class="h-6 w-6 text-emerald-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <p class="font-bold">
+                            We need a way for users to monitor their progress through the Your Tomorrow upskilling program in the myMetrics application.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Understanding Images/Artifacts -->
+                <div class="space-y-8">
+                    <figure class="space-y-4">
+                        <div class="bg-stone-100 overflow-hidden">
+                            <img src="file:///Users/brandonshar/Code/heather-portfolio/images/yt-stakeholder-example.png" alt="Welcome Agenda" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-stone-100 overflow-hidden"></div>
+                            <img src="file:///Users/brandonshar/Code/heather-portfolio/images/yt-digital-applies.png" alt="Client Strategist user journey" class="w-full h-full object-cover">
+                        </div>
+                        <figcaption class="text-sm text-stone-600">
+                            Visual examples provided by stakeholders
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- Process -->
+            <section>
+                <h2 class="text-2xl font-bold mb-6">Defining the Solution and Crafting the Experience</h2>
+                <div class="prose text-stone-600">
+                    <p>I spent a lot of time in the defining phase trying to figure out how best to work with the data visualizations for this project. I needed to capture a points score, a level name, relative rankings, instructions for getting to the next level, and more. I ended up having to write out all of the user stories I was trying to capture so that I could see all of the specifications in one place:</p>
+                    <div class="flex items-center gap-3 my-6">
+                        <svg class="h-6 w-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-bold">
+                            I can see my percentile vs. the average percentile of my staff class within my Competency (so, vs. my staff class, I'm in the 85th percentile, for example, meaning that I have a higher number of points than 85% of the people in my staff class). And, if that's the case, that bar should be 85% high (assuming the container it's in is 100% height.)
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 my-6">
+                        <svg class="h-6 w-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-bold">
+                            I can see my percentile vs. the average percentile of ALL staff in my Competency (so, vs. all staff, I’m in the 75th percentile, for example, meaning that I have a higher number of points than 75% of the staff in my Competency). If that’s the case, that bar should be 75% high (assuming the container it’s in is 100% height).
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 my-6">
+                        <svg class="h-6 w-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-bold">
+                            I can see my percentile vs. the average percentile of my staff class in my Vertical, and I can see my percentile vs. the average percentile of ALL staff in my Vertical.
+                    </div>
+                    <div class="flex items-center gap-3 my-6">
+                        <svg class="h-6 w-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <p class="font-bold">
+                            I can see my percentile vs. the average percentile of my staff class in my line of service, and I can see my percentile vs. the average percentile of ALL staff in my line of service.
+                    </div>
+                </div>
+
+                 <!-- Prototyping Images/Artifacts -->
+                 <div class="space-y-8">
+                    <figure class="space-y-4">
+                        <div class="bg-stone-100 overflow-hidden">
+                            <img src="file:///Users/brandonshar/Code/heather-portfolio/images/yt-wireframe.png" alt="Welcome Agenda" class="w-full h-full object-cover">
+                        </div>
+                        <figcaption class="text-sm text-stone-600">
+                            Wireframes showing each of the pages in the card carousels
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- Solution -->
+            <section>
+                <h2 class="text-2xl font-bold mb-6">Solution</h2>
+                <div class="prose text-stone-600 mb-6">
+                    <p>After iterating on the user experience, data visualizations, point counts, empty states, graphic badges, and more, I handed off a design solution to our development team that the stakeholders were extremely happy with. The dashboard went live within the myMetrics application and was available for use to all 55,000+ PwC employees across the United States and Mexico.</p>
+                </div>
+
+                <!-- Solution Images/Artifacts -->
+                <div class="space-y-8">
+                    <figure class="space-y-4">
+                        <div class="bg-stone-100 overflow-hidden">
+                            <img src="file:///Users/brandonshar/Code/heather-portfolio/images/yt-dashboard-1.png" alt="Welcome Agenda" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-stone-100 overflow-hidden"></div>
+                            <img src="file:///Users/brandonshar/Code/heather-portfolio/images/yt-dashboard-2.png" alt="Welcome Agenda" class="w-full h-full object-cover">
+                        </div>
+                        <figcaption class="text-sm text-stone-600">
+                            The finished Your Tomorrow dashboard within the myMetrics application
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+        </article>
+    </main>
+</body>
+</html> 
